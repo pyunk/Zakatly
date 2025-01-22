@@ -176,7 +176,7 @@ document.getElementById('zakatUseGold')?.addEventListener('submit', function (e)
     const resultElement = document.getElementById('result2');
 
     if (gold2 < 800) {
-        resultElement.textContent = "Zakat is not applicable because the weight of gold is below the uruf value.";
+        resultElement.textContent = "Zakat is not applicable because the weight of gold is below the nisab value.";
         const tGold2 = 349.88 * gold2;
         document.getElementById('price2').value = `${tGold2.toFixed(2)}`;
         document.getElementById('zakatUse').value = '';
